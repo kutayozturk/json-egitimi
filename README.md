@@ -1,4 +1,4 @@
-# JSON EĞİTİM
+# JSON EĞİTİMİ
 
 #### Kutay ÖZTÜRK Tarafından Hazırlanmıştır.
 - [01-JSON Nedir?](https://github.com/kutayozturk/json-egitimi/blob/main/01%20-%20JSON%20Nedir.md)
