@@ -1,6 +1,4 @@
 <?php 
-
-
     $telefon=array(
         "marka" => "Honor",
         "model" => "90",
@@ -14,11 +12,9 @@
         )
     );
 
-
     $jsonVeri=json_encode($telefon);
     $veri=json_decode($jsonVeri);
 
     echo "Marka: ".$veri->marka."<br>";
     echo $veri->kamera->on;
-
 ?>
