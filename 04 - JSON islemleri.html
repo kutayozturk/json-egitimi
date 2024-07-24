@@ -4,71 +4,68 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>   
-        
-<style>
-    #kitapListesi td {padding: 5px 10px; border: 1px solid gray;}
-</style>
-
-
-<script>
-    $(document).ready(function(){
-        var kitap=[
-        {
-            "kitapAdi":"Dünyanın Merkezine Yolculuk",
-            "yazar":"Jules VERNE",
-            "tur":"Çocuk Kitabı",
-            "fiyat":50
-          
-        },
-        {
-            "kitapAdi":"Çocuk Kalbi",
-            "yazar":"Edmondo De Amicis",
-            "tur":"Çocuk Kitabı",
-            "fiyat":90
-          
-        },
-        {
-            "kitapAdi":"Kibritçi Kız",
-            "yazar":"Hans Christian Andersen",
-            "tur":"Çocuk Kitabı",
-            "fiyat":70
-            
-        }
-        ];
-
-        var jsonveri=JSON.stringify(kitap);
-        var veri=JSON.parse(jsonveri)
-        
-        for(var i=0;i<veri.length;i++)
-        {
-                var satir="<tr>";
-                satir+="<td>"+veri[i].kitapAdi+"</td>";
-                satir+="<td>"+veri[i].yazar+"</td>";
-                satir+="<td>"+veri[i].tur+"</td>";
-                satir+="<td>"+veri[i].fiyat+"</td>";
-                satir+="</tr>";
-
-                $("#kitapListesi").append(satir);
-        }
-    })
-    
-</script>
-
-</head>
-<body>
-    <table id="kitapListesi" cellspacing="0">
-        <!-- cellspacing="0 Aradaki boşlukları kaldırır -->
-        <tr>
-            <td>Kitap Adı</td>
-            <td>Yazar</td>
-            <td>Tür</td>
-            <td>Fiyat</td>
-        </tr>
-    </table>
-
-
         <!-- jquery Dahil Etme Komutu -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>   
         
-</body>
+    <style>
+        #kitapListesi td {padding: 5px 10px; border: 1px solid gray;}
+    </style>
+
+    <script>
+        $(document).ready(function(){
+            var kitap=[
+            {
+                "kitapAdi":"Dünyanın Merkezine Yolculuk",
+                "yazar":"Jules VERNE",
+                "tur":"Çocuk Kitabı",
+                "fiyat":50
+              
+            },
+            {
+                "kitapAdi":"Çocuk Kalbi",
+                "yazar":"Edmondo De Amicis",
+                "tur":"Çocuk Kitabı",
+                "fiyat":90
+              
+            },
+            {
+                "kitapAdi":"Kibritçi Kız",
+                "yazar":"Hans Christian Andersen",
+                "tur":"Çocuk Kitabı",
+                "fiyat":70
+                
+            }
+            ];
+    
+            var jsonveri=JSON.stringify(kitap);
+            var veri=JSON.parse(jsonveri)
+            
+            for(var i=0;i<veri.length;i++)
+            {
+                    var satir="<tr>";
+                    satir+="<td>"+veri[i].kitapAdi+"</td>";
+                    satir+="<td>"+veri[i].yazar+"</td>";
+                    satir+="<td>"+veri[i].tur+"</td>";
+                    satir+="<td>"+veri[i].fiyat+"</td>";
+                    satir+="</tr>";
+    
+                    $("#kitapListesi").append(satir);
+            }
+        })
+        
+    </script>
+    
+ </head>
+    <body>
+        <table id="kitapListesi" cellspacing="0">
+            <!-- cellspacing="0 Aradaki boşlukları kaldırır -->
+            <tr>
+                <td>Kitap Adı</td>
+                <td>Yazar</td>
+                <td>Tür</td>
+                <td>Fiyat</td>
+            </tr>
+        </table>
+    
+    </body>
 </html>
