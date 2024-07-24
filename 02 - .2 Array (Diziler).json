@@ -1,0 +1,40 @@
+{
+    "sirket":"codegarage",
+    "sehir":"Ankara",
+    "yil":2024,
+
+
+   "personel": [
+        {
+            "adsoyad":"Elif ALKIŞ",
+            "birim": "Web Tasarım"
+        },
+        {
+            "adsoyad":"Deniz SÜMBÜL",
+            "birim": "Web Tasarım"
+        },
+        {
+            "adsoyad":"Hüsna KARAKUŞ",
+            "birim": "Web Tasarım"
+        }
+    ],
+
+    "mudur":"Kutay ÖZTÜRK",
+
+    "stajerler": [
+        {
+            "adsoyad":"Gizem ÖZDEMİR",
+            "birim": "C#"
+        },
+        {
+            "adsoyad":"Mustafa Akdemir",
+            "birim": "C#"
+        },
+        {
+            "adsoyad":"Abdulhalim YILDIZ",
+            "birim": "Game Developer"
+        }
+    ]
+
+}
+  

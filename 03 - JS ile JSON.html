@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        
+        <!-- jquery Dahil Etme Komutu -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+        
+    <script>
+        var kitap={
+            "kitapAdi":"Dünyanın Merkezine Yolculuk",
+            "yazar":"Jules VERNE",
+            "dil":"Tükçe",
+            "sayfaSayisi":176,
+            "cilt":"Karton",
+            "isbn":9789754940916
+        };
+
+        var jsonVeri=JSON.stringify(kitap);
+        var veri=JSON.parse(jsonVeri);
+
+        alert(veri.yazar);
+
+
+    </script>
+
+
+</head>
+<body>
+    
+
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "marka":"Honor",
+    "model":"90",
+    "fiyat":14999,
+    "renk":["Yeşil","Mavi","Siyah"],
+    "kemara":{
+        "on": 12,
+        "arka": 200
+    },
+    "stok": true,
+    "firma":null
+
+}
+  
